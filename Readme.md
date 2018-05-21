@@ -11,24 +11,10 @@ Given a batch of images, the program tries to find similarity between images usi
 * Make the downloaded shell script executable and install
 * ``conda -V`` to check that installation was successfull. 
 * ``conda update conda`` and ``conda update anaconda``
-* ```javascript
-# scipy
-import scipy
-print('scipy: %s' % scipy.__version__)
-# numpy
-import numpy
-print('numpy: %s' % numpy.__version__)
-# matplotlib
-import matplotlib
-print('matplotlib: %s' % matplotlib.__version__)
-# pandas
-import pandas
-print('pandas: %s' % pandas.__version__)
-# statsmodels
-import statsmodels
-print('statsmodels: %s' % statsmodels.__version__)
-# scikit-learn
-import sklearn
-print('sklearn: %s' % sklearn.__version__)
-```
-* 
+* ``conda update scikit-learn``
+* ``conda install theano``
+* ``conda install -c conda-forge tensorflow``
+* ``pip install keras``
+* ``export MKL_THREADING_LAYER=GNU``
+
+Note: More Descriptive Instructions On [Installation](https://machinelearningmastery.com/setup-python-environment-machine-learning-deep-learning-anaconda/)
