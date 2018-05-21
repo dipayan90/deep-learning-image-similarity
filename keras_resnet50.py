@@ -47,3 +47,14 @@ def driver():
     #print('Predicted:', decode_predictions(preds, top=3)[0])
 
 driver()
+
+# Output Result
+
+# images/shoe.jpg is most similar to: images/shoe1.jpg
+# images/shoe1.jpg is most similar to: images/shoe.jpg
+# images/bikini.jpg is most similar to: images/dress.jpeg
+# images/dress.jpeg is most similar to: images/bikini.jpg
+# images/bear.jpg is most similar to: images/printer1.jpg
+# images/printer1.jpg is most similar to: images/printer2.jpg
+# images/coil1.jpeg is most similar to: images/printer1.jpg
+# images/printer2.jpg is most similar to: images/printer1.jpg
